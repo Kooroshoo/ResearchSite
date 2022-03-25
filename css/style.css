@@ -1,5 +1,33 @@
 
 
+
+/* Logo Section
+--------------------------------*/
+@font-face {
+  font-family: andromeda; 
+  src: url("../fonts/andromeda.ttf") format('truetype'); 
+}
+
+.v-logo {
+  font-family: andromeda;
+}
+
+.v-logo-image {
+  max-width: 60%;
+}
+
+@media (max-width: 991px) {
+  .v-logo-image {
+    max-width: 100%;
+  }
+}
+
+.iit-logo-image {
+  max-width: 20%;
+
+}
+
+
 /* Team Section
 --------------------------------*/
 #team .team-block {
