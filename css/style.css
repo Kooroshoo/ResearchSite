@@ -5,7 +5,7 @@
 --------------------------------*/
 @font-face {
   font-family: andromeda; 
-  src: url("../fonts/andromeda.ttf") format('truetype'); 
+  src: url("fonts/andromeda.ttf") format('truetype'); 
 }
 
 .v-logo {
