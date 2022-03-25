@@ -5,8 +5,15 @@
 --------------------------------*/
 @font-face {
   font-family: andromeda; 
-  src: url("../fonts/andromeda.ttf"); 
+  src: url('../fonts/andromeda.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/andromeda.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/andromeda.ttf') format('truetype'), /* Super Modern Browsers */
+       url('../fonts/andromeda.ttf') format('truetype'), /* Pretty Modern Browsers */
+       url('../fonts/andromeda.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/andromeda.ttf#svgFontName') format('truetype'); /* Legacy iOS */
+
 }
+
 
 .v-logo {
   font-family: andromeda;
