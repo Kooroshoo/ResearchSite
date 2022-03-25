@@ -20,10 +20,16 @@
 }
 
 .v-logo-image {
-  max-width: 60%;
+  max-width: 40%;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1201px) {
+  .v-logo-image {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 769px) {
   .v-logo-image {
     max-width: 100%;
   }
@@ -31,6 +37,30 @@
 
 .iit-logo-image {
   max-width: 20%;
+
+}
+
+
+
+/* Background Section
+--------------------------------*/
+
+.background-solid-color {
+  opacity: 1;
+  background: #4096ee; /* Old browsers */
+  background: -moz-linear-gradient(top, #4096ee 0%, #39ced6 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4096ee 0%,#39ced6 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #4096ee 0%,#39ced6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#39ced6',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.background-rounded {
+  background-color: #39ced6;
+  border-radius: 1%;
+  padding: 300px;
+
 
 }
 
