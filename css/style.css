@@ -20,7 +20,7 @@
 }
 
 .v-logo-image {
-  max-width: 40%;
+  max-width: 30%;
 }
 
 @media (max-width: 1201px) {
@@ -40,6 +40,30 @@
 
 }
 
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.highlight-container {
+  margin: 1%;
+  padding: 20px 15px 10px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 2%;
+
+  -moz-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+
+}
+
+.highlight-container:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+
 
 
 /* Background Section
@@ -57,9 +81,9 @@
 }
 
 .background-rounded {
-  background-color: #39ced6;
+  background-color: rgba(247, 247, 247, 0.233);
   border-radius: 1%;
-  padding: 30%;
+  padding: 5% 10%;
 
 
 }
