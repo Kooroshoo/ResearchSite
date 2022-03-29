@@ -380,8 +380,8 @@ a#logo {
   margin: 1px 0px;
 }
 .social-icons li a {
-  width:50px;
-  height:50px;
+  width:100px;
+  height:100px;
   display:inline-block;
   line-height:50px;
   text-align:center;
